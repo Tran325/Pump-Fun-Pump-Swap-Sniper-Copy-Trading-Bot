@@ -1,0 +1,26 @@
+[package]
+name = "pumpfun-analyzer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.192", features = ["derive"] }
+serde_json = "1.0.108"
+tokio = { version = "1.34.0", features = ["full"] }
+chrono = "0.4.31"
+clap = { version = "4.4.10", features = ["derive"] }
+colored = "2.0.4"
+base64 = "0.21.5"
+bs58 = "0.5.0"
+anyhow = "1.0.75"
+regex = "1.10.2"
+futures = "0.3.29"
+lazy_static = "1.4.0"
+
+[lib]
+name = "pumpfun_analyzer"
+path = "src/lib.rs"
+
+[[bin]]
+name = "pumpfun-cli"
+path = "src/main.rs"

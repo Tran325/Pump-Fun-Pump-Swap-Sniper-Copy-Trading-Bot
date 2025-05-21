@@ -1,0 +1,371 @@
+[2025-05-07 12:00:24] [TELEGRAM] =>  Initialized Telegram service with chat ID: 7614746985
+[2025-05-07 12:00:24] [TELEGRAM] =>  Starting Telegram update polling...
+[2025-05-07 12:00:24] [PUMP-FUN] =>  Starting enhanced token trader...
+[2025-05-07 12:00:24] [ENHANCED-MONITOR] =>  TokenListManager initialized - Whitelist: 216 tokens, Blacklist: 0 tokens
+[2025-05-07 12:00:24] [ENHANCED-MONITOR] =>  🔄 Token review cycle: 120000 ms | 💾 Save interval: 600000 ms
+[2025-05-07 12:00:24] [ENHANCED-MONITOR] =>  Take Profit: 10% | Stop Loss: 5%
+[2025-05-07 12:00:24] [TELEGRAM] =>  Initialized Telegram service with chat ID: 7614746985
+[2025-05-07 12:00:24] [TELEGRAM] =>  Sent filter settings UI to Telegram
+[2025-05-07 12:00:24] [ENHANCED-MONITOR] =>  Connecting to Yellowstone gRPC...
+[2025-05-07 12:00:24] [TELEGRAM] =>  Starting Telegram update polling...
+[2025-05-07 12:00:24] [ENHANCED-MONITOR] =>  Starting sell manager monitoring loop
+[2025-05-07 12:00:25] [ENHANCED-MONITOR] =>  Successfully connected to Yellowstone gRPC
+[2025-05-07 12:00:25] [ENHANCED-MONITOR] =>  [ENHANCED MONITORING STARTED]...
+[2025-05-07 12:00:25] [ENHANCED-MONITOR] =>  [PING ERROR] => Failed to send ping: channel closed
+active tokens in cycle:
+Checking if token is tracked:
+active tokens in cycle: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+Checking if token is tracked: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+active tokens in cycle: 2NT8BszEiUNBQ7rUBfwFHRaZA3pjjF8iCU78fxVGpump
+Checking if token is tracked: 2NT8BszEiUNBQ7rUBfwFHRaZA3pjjF8iCU78fxVGpump
+active tokens in cycle: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked:
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+active tokens in cycle: DH3mJorhxWBzGiaJN3JeiF2XKEDBCpG792ZigqUmpump
+Checking if token is tracked: DH3mJorhxWBzGiaJN3JeiF2XKEDBCpG792ZigqUmpump
+active tokens in cycle: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+active tokens in cycle: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+active tokens in cycle: F91b388CKMcCtE3sMa4cZcHsiNi5eFnA2ENZBvxqpump
+Checking if token is tracked: F91b388CKMcCtE3sMa4cZcHsiNi5eFnA2ENZBvxqpump
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+Checking if token is tracked:
+Checking if token is tracked: F91b388CKMcCtE3sMa4cZcHsiNi5eFnA2ENZBvxqpump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+active tokens in cycle: 3DqyAK65B7LhpaUNYS3wUGKLUY9Z2c9EkWyoqKp7pump
+Checking if token is tracked: 3DqyAK65B7LhpaUNYS3wUGKLUY9Z2c9EkWyoqKp7pump
+Checking if token is tracked:
+active tokens in cycle: DjvH1Fo9StQmey4cwe17txSWbv9CZ7oreEc8SZ6Jpump
+Checking if token is tracked: DjvH1Fo9StQmey4cwe17txSWbv9CZ7oreEc8SZ6Jpump
+Checking if token is tracked: DjvH1Fo9StQmey4cwe17txSWbv9CZ7oreEc8SZ6Jpump
+Checking if token is tracked: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+[2025-05-07 12:00:26] [ENHANCED-MONITOR] =>
+         * [NEW TOKEN DETECTED] => (https://solscan.io/tx/DKN1amMYipuE7jJu4guhE2fj92VNey1jF8re3wa5rDCTfmB6iacA2EAbee88v2Toa6xSCCvmpm5hYTbmtyuiMNF) - SLOT:(338425560)
+         * [TOKEN] => (7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump)
+         * [DEV BUY AMOUNT] => (1)  * [TIMESTAMP] => 2025-05-07 12:00:26.146923914 UTC :: (1.584788ms).
+[2025-05-07 12:00:26] [ENHANCED-MONITOR] =>
+         * [TOKEN NAME] => Unknown
+         * [TOKEN SYMBOL] => Unknown
+[2025-05-07 12:00:26] [ENHANCED-MONITOR] =>  Added token to tracker: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump with initial price: 0 lamports
+[2025-05-07 12:00:26] [ENHANCED-MONITOR] =>  Added token 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump to whitelist
+[2025-05-07 12:00:26] [TELEGRAM] =>  Token 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump failed market cap filter: 1.00 not in range 8-15
+[2025-05-07 12:00:26] [ENHANCED-MONITOR] =>  Token 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump didn't pass Telegram filters. Current filter configuration:
+Market Cap (✅): 8-15K
+Volume (✅): 5-12K
+Buy/Sell Count (❌): 50-2000
+SOL Invested (❌): 1 SOL
+Launcher SOL Balance (❌): 0-1 SOL
+Dev Buy & Bundle (❌): 5-30 SOL
+active tokens in cycle: FaQ5CkguPuz7bhHbhUdKxhcB6utQ9k7aTPyCovePpump
+Checking if token is tracked: FaQ5CkguPuz7bhHbhUdKxhcB6utQ9k7aTPyCovePpump
+Checking if token is tracked: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+active tokens in cycle: 5PVKjciMcNXjBtejAUp2d7Z2SQahw3WxPts4yWgapump
+Checking if token is tracked: 5PVKjciMcNXjBtejAUp2d7Z2SQahw3WxPts4yWgapump
+active tokens in cycle: Df5XZrYpCxjVv8nhi1NFu6u4ui552QWPCUMKgBFUpump
+Checking if token is tracked: Df5XZrYpCxjVv8nhi1NFu6u4ui552QWPCUMKgBFUpump
+active tokens in cycle: QFJWQgpvSPbv9yejMzsE18pCgug2WWVr9T7bB1spump
+Checking if token is tracked: QFJWQgpvSPbv9yejMzsE18pCgug2WWVr9T7bB1spump
+Checking if token is tracked: QFJWQgpvSPbv9yejMzsE18pCgug2WWVr9T7bB1spump
+active tokens in cycle: 7mLBHWJzrhjYMcbXM2f595MsFTvkf3D6bQnsrojgpump
+Checking if token is tracked: 7mLBHWJzrhjYMcbXM2f595MsFTvkf3D6bQnsrojgpump
+active tokens in cycle: B2Dqs63v5mQVY1X6FQs2JMDJYX2GVc4x5g7aBZwypump
+Checking if token is tracked: B2Dqs63v5mQVY1X6FQs2JMDJYX2GVc4x5g7aBZwypump
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+Checking if token is tracked: 2NT8BszEiUNBQ7rUBfwFHRaZA3pjjF8iCU78fxVGpump
+active tokens in cycle: EEPAZYSRkQNkhvsFgoPFnBgRapdGePr6QjA84FRqpump
+Checking if token is tracked: EEPAZYSRkQNkhvsFgoPFnBgRapdGePr6QjA84FRqpump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+active tokens in cycle: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked:
+active tokens in cycle: JCeXhWL7nakGMoLvqNAseqDmu1MaLFCDf5gp19Qhpump
+Checking if token is tracked: JCeXhWL7nakGMoLvqNAseqDmu1MaLFCDf5gp19Qhpump
+active tokens in cycle: Skej7oEHhNGbZ78sNHiY8TJGjroh6tvKhGFZPDCpump
+Checking if token is tracked: Skej7oEHhNGbZ78sNHiY8TJGjroh6tvKhGFZPDCpump
+Checking if token is tracked: Skej7oEHhNGbZ78sNHiY8TJGjroh6tvKhGFZPDCpump
+Checking if token is tracked: JCeXhWL7nakGMoLvqNAseqDmu1MaLFCDf5gp19Qhpump
+active tokens in cycle: 3asJcuz95i21rvE3GAuVNhadX19wDq15moTts1ffpump
+Checking if token is tracked: 3asJcuz95i21rvE3GAuVNhadX19wDq15moTts1ffpump
+active tokens in cycle: 3swBCQ4CjwKZ1v5u5ekR1WD2s1FwqZxBva42RBTBpump
+Checking if token is tracked: 3swBCQ4CjwKZ1v5u5ekR1WD2s1FwqZxBva42RBTBpump
+Checking if token is tracked:
+Checking if token is tracked: 3swBCQ4CjwKZ1v5u5ekR1WD2s1FwqZxBva42RBTBpump
+Checking if token is tracked:
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+[2025-05-07 12:00:26] [ENHANCED-MONITOR] =>
+         * [NEW TOKEN DETECTED] => (https://solscan.io/tx/5s1fUzj4Srmw4dHKRkvMxJFAyVkyHWvdftuErcYfJr9MKk6tH95DgDxfZNmPbYRAd2oidgnoVK43ecSbTeJJTYHL) - SLOT:(338425561)
+         * [TOKEN] => ()
+         * [DEV BUY AMOUNT] => (0)  * [TIMESTAMP] => 2025-05-07 12:00:26.801418774 UTC :: (1.574249ms).
+[2025-05-07 12:00:26] [ENHANCED-MONITOR] =>
+         * [DEV BOUGHT LESS THAN] => 1 > 0
+active tokens in cycle: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Token is whitelisted: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+active tokens in cycle: 91GTT9oXPQZYh7Mi6LTgxpSwv5abfZyoQh65hdempump
+Checking if token is tracked: 91GTT9oXPQZYh7Mi6LTgxpSwv5abfZyoQh65hdempump
+Checking if token is tracked: 3swBCQ4CjwKZ1v5u5ekR1WD2s1FwqZxBva42RBTBpump
+Checking if token is tracked: EEPAZYSRkQNkhvsFgoPFnBgRapdGePr6QjA84FRqpump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+active tokens in cycle: 8RqmQheU6ZwAs24fPH78EWYfbWqykFmLuBRG5Ydcpump
+Checking if token is tracked: 8RqmQheU6ZwAs24fPH78EWYfbWqykFmLuBRG5Ydcpump
+Token is whitelisted: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: 2NT8BszEiUNBQ7rUBfwFHRaZA3pjjF8iCU78fxVGpump
+Checking if token is tracked: 2NT8BszEiUNBQ7rUBfwFHRaZA3pjjF8iCU78fxVGpump
+Checking if token is tracked: 2NT8BszEiUNBQ7rUBfwFHRaZA3pjjF8iCU78fxVGpump
+active tokens in cycle: 6S94YNDEDMnaq3TuATqshLfJ4ERnDkkyovwhdprFpump
+Checking if token is tracked: 6S94YNDEDMnaq3TuATqshLfJ4ERnDkkyovwhdprFpump
+Checking if token is tracked: 3swBCQ4CjwKZ1v5u5ekR1WD2s1FwqZxBva42RBTBpump
+Checking if token is tracked: Skej7oEHhNGbZ78sNHiY8TJGjroh6tvKhGFZPDCpump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked: F91b388CKMcCtE3sMa4cZcHsiNi5eFnA2ENZBvxqpump
+active tokens in cycle: 6a3JxaWu9iDjoykpYidhBCJCEhWow5fWpkzEBnY7pump
+Checking if token is tracked: 6a3JxaWu9iDjoykpYidhBCJCEhWow5fWpkzEBnY7pump
+active tokens in cycle: BhjQUi9N63UuhQbC9EWYXbBRVkxFSKzAvWqF6kM4pump
+Checking if token is tracked: BhjQUi9N63UuhQbC9EWYXbBRVkxFSKzAvWqF6kM4pump
+Checking if token is tracked: BhjQUi9N63UuhQbC9EWYXbBRVkxFSKzAvWqF6kM4pump
+[2025-05-07 12:00:27] [ENHANCED-MONITOR] =>
+         * [NEW TOKEN DETECTED] => (https://solscan.io/tx/2f6UfduS1mmWnrg7XTymBWoY5SCRnfk3renvtoNi6yGadSRgsJonNBuYyi4wHYFv1Hz7E3L3KpcKq2jz6AcG9iLc) - SLOT:(338425563)
+         * [TOKEN] => ()
+         * [DEV BUY AMOUNT] => (0)  * [TIMESTAMP] => 2025-05-07 12:00:27.307950829 UTC :: (1.610878ms).
+[2025-05-07 12:00:27] [ENHANCED-MONITOR] =>
+         * [DEV BOUGHT LESS THAN] => 1 > 0
+Token is whitelisted: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked:
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked: BhjQUi9N63UuhQbC9EWYXbBRVkxFSKzAvWqF6kM4pump
+[2025-05-07 12:00:27] [ENHANCED-MONITOR] =>
+         * [NEW TOKEN DETECTED] => (https://solscan.io/tx/56XwdiEdPEkgN9vt3tewWwTay7PsponwmBN8dqPU8yVPJ5Y3tP8sqbVAdFk8d3e7vpE9zPuZNB5oVCt6QAzDeZMK) - SLOT:(338425563)
+         * [TOKEN] => (93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump)
+         * [DEV BUY AMOUNT] => (1)  * [TIMESTAMP] => 2025-05-07 12:00:27.502157875 UTC :: (1.727295ms).
+[2025-05-07 12:00:27] [ENHANCED-MONITOR] =>
+         * [TOKEN NAME] => Unknown
+         * [TOKEN SYMBOL] => Unknown
+[2025-05-07 12:00:27] [ENHANCED-MONITOR] =>  Added token to tracker: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump with initial price: 0 lamports
+[2025-05-07 12:00:27] [ENHANCED-MONITOR] =>  Added token 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump to whitelist
+[2025-05-07 12:00:27] [TELEGRAM] =>  Token 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump failed market cap filter: 1.00 not in range 8-15
+[2025-05-07 12:00:27] [ENHANCED-MONITOR] =>  Token 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump didn't pass Telegram filters. Current filter configuration:
+Market Cap (✅): 8-15K
+Volume (✅): 5-12K
+Buy/Sell Count (❌): 50-2000
+SOL Invested (❌): 1 SOL
+Launcher SOL Balance (❌): 0-1 SOL
+Dev Buy & Bundle (❌): 5-30 SOL
+active tokens in cycle: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Token is whitelisted: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Checking if token is tracked: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+active tokens in cycle: FxFwA1jtTpefAYsDtUZj5aEdMs2HgVzLFo42a9eepump
+Checking if token is tracked: FxFwA1jtTpefAYsDtUZj5aEdMs2HgVzLFo42a9eepump
+Checking if token is tracked:
+Checking if token is tracked: 6a3JxaWu9iDjoykpYidhBCJCEhWow5fWpkzEBnY7pump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked:
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+active tokens in cycle: DBtVM7stXp9Cbygjmahyy64DQanA3PMYKt3gRF8fpump
+Checking if token is tracked: DBtVM7stXp9Cbygjmahyy64DQanA3PMYKt3gRF8fpump
+Checking if token is tracked:
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked:
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked:
+Checking if token is tracked:
+active tokens in cycle: 9Dwqcxt26o1zF8cyeUVZ4DtLSsfP5m6gVREaHP9Bpump
+Checking if token is tracked: 9Dwqcxt26o1zF8cyeUVZ4DtLSsfP5m6gVREaHP9Bpump
+active tokens in cycle: J6fedihsGnAsCpfRFNkWe6GjMEXErSfGHSHmxSENpump
+Checking if token is tracked: J6fedihsGnAsCpfRFNkWe6GjMEXErSfGHSHmxSENpump
+active tokens in cycle: 9P4TPJuJd8SQX2mo53hPEyDJrEMvkp9KaqeQBJLqpump
+Checking if token is tracked: 9P4TPJuJd8SQX2mo53hPEyDJrEMvkp9KaqeQBJLqpump
+Checking if token is tracked: DjvH1Fo9StQmey4cwe17txSWbv9CZ7oreEc8SZ6Jpump
+Checking if token is tracked: B2Dqs63v5mQVY1X6FQs2JMDJYX2GVc4x5g7aBZwypump
+Checking if token is tracked: 9Dwqcxt26o1zF8cyeUVZ4DtLSsfP5m6gVREaHP9Bpump
+Checking if token is tracked:
+Checking if token is tracked: F91b388CKMcCtE3sMa4cZcHsiNi5eFnA2ENZBvxqpump
+Checking if token is tracked:
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked:
+Checking if token is tracked:
+Checking if token is tracked:
+Checking if token is tracked: 6S94YNDEDMnaq3TuATqshLfJ4ERnDkkyovwhdprFpump
+active tokens in cycle: BJhb9og9CBqmL9YjobG4qo6BHdfebwVDMi9FnCvkpump
+Checking if token is tracked: BJhb9og9CBqmL9YjobG4qo6BHdfebwVDMi9FnCvkpump
+active tokens in cycle: BQ2H4iunQzbhMQaUf65J5N7qVASX9JWf8oytTM2Gpump
+Checking if token is tracked: BQ2H4iunQzbhMQaUf65J5N7qVASX9JWf8oytTM2Gpump
+Checking if token is tracked: FxFwA1jtTpefAYsDtUZj5aEdMs2HgVzLFo42a9eepump
+Checking if token is tracked: 6S94YNDEDMnaq3TuATqshLfJ4ERnDkkyovwhdprFpump
+Token is whitelisted: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Token is whitelisted: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Checking if token is tracked: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Checking if token is tracked:
+Checking if token is tracked: QFJWQgpvSPbv9yejMzsE18pCgug2WWVr9T7bB1spump
+Checking if token is tracked:
+active tokens in cycle: 8JkFZPUEhKuNToteQCaLRtMuqdeYPFfSWExe3eR7pump
+Checking if token is tracked: 8JkFZPUEhKuNToteQCaLRtMuqdeYPFfSWExe3eR7pump
+Checking if token is tracked:
+active tokens in cycle: FL3awP4a7PqZ7ErFiimktxUAhZdBqt1FULkK6Podpump
+Token is whitelisted: FL3awP4a7PqZ7ErFiimktxUAhZdBqt1FULkK6Podpump
+Checking if token is tracked: FL3awP4a7PqZ7ErFiimktxUAhZdBqt1FULkK6Podpump
+Checking if token is tracked: EEPAZYSRkQNkhvsFgoPFnBgRapdGePr6QjA84FRqpump
+Checking if token is tracked: F91b388CKMcCtE3sMa4cZcHsiNi5eFnA2ENZBvxqpump
+Checking if token is tracked: QFJWQgpvSPbv9yejMzsE18pCgug2WWVr9T7bB1spump
+Checking if token is tracked:
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+Checking if token is tracked: 6a3JxaWu9iDjoykpYidhBCJCEhWow5fWpkzEBnY7pump
+Checking if token is tracked: Skej7oEHhNGbZ78sNHiY8TJGjroh6tvKhGFZPDCpump
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+active tokens in cycle: 6g8hTCusFkR2x8LnskegwCNmfSksgZgS3L9kkQ1Hpump
+Checking if token is tracked: 6g8hTCusFkR2x8LnskegwCNmfSksgZgS3L9kkQ1Hpump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked:
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+Checking if token is tracked:
+active tokens in cycle: 8DdSZsdirjvpezxTRFx3spfQEcyYeQFgDGuoD6k2pump
+Checking if token is tracked: 8DdSZsdirjvpezxTRFx3spfQEcyYeQFgDGuoD6k2pump
+Checking if token is tracked:
+Checking if token is tracked:
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked: FxFwA1jtTpefAYsDtUZj5aEdMs2HgVzLFo42a9eepump
+active tokens in cycle: ErnwiC6TAt4HKXzRMQwRkEnhV4agLmfAX4TVRNm1pump
+Checking if token is tracked: ErnwiC6TAt4HKXzRMQwRkEnhV4agLmfAX4TVRNm1pump
+Checking if token is tracked: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+active tokens in cycle: 6PA3u9iqvuvv9QQ8Zn9qj4CjVNAsLQ6JfApZDnXqpump
+Checking if token is tracked: 6PA3u9iqvuvv9QQ8Zn9qj4CjVNAsLQ6JfApZDnXqpump
+active tokens in cycle: FoMe4ezfsaSPkX9DvzUwraWfffW2tQnpzNUwJTE5pump
+Checking if token is tracked: FoMe4ezfsaSPkX9DvzUwraWfffW2tQnpzNUwJTE5pump
+Checking if token is tracked: 6PA3u9iqvuvv9QQ8Zn9qj4CjVNAsLQ6JfApZDnXqpump
+Checking if token is tracked: 6PA3u9iqvuvv9QQ8Zn9qj4CjVNAsLQ6JfApZDnXqpump
+Checking if token is tracked: 6PA3u9iqvuvv9QQ8Zn9qj4CjVNAsLQ6JfApZDnXqpump
+Checking if token is tracked: F91b388CKMcCtE3sMa4cZcHsiNi5eFnA2ENZBvxqpump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked: 6PA3u9iqvuvv9QQ8Zn9qj4CjVNAsLQ6JfApZDnXqpump
+Checking if token is tracked: BQ2H4iunQzbhMQaUf65J5N7qVASX9JWf8oytTM2Gpump
+Checking if token is tracked: 91GTT9oXPQZYh7Mi6LTgxpSwv5abfZyoQh65hdempump
+Checking if token is tracked: 6PA3u9iqvuvv9QQ8Zn9qj4CjVNAsLQ6JfApZDnXqpump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked: 6a3JxaWu9iDjoykpYidhBCJCEhWow5fWpkzEBnY7pump
+active tokens in cycle: 2YAR8wcQBAGWRqRbXkTbdpcB6jDZQShhdZFRuWnDpump
+Checking if token is tracked: 2YAR8wcQBAGWRqRbXkTbdpcB6jDZQShhdZFRuWnDpump
+Checking if token is tracked:
+Checking if token is tracked: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+[2025-05-07 12:00:30] [ENHANCED-MONITOR] =>
+         * [NEW TOKEN DETECTED] => (https://solscan.io/tx/2H3Ci4hgbsdoHV1Rfm4CX9W8ras7MiTTACPPFiLLGvuWDmSW43EGFBqxzm3P7BdVYjnmhFaBVWQ7cDo4VHXgbcW4) - SLOT:(338425569)
+         * [TOKEN] => ()
+         * [DEV BUY AMOUNT] => (0)  * [TIMESTAMP] => 2025-05-07 12:00:30.064280216 UTC :: (1.645853ms).
+[2025-05-07 12:00:30] [ENHANCED-MONITOR] =>
+         * [DEV BOUGHT LESS THAN] => 1 > 0
+Checking if token is tracked: 6PA3u9iqvuvv9QQ8Zn9qj4CjVNAsLQ6JfApZDnXqpump
+Checking if token is tracked:
+Checking if token is tracked:
+Token is whitelisted: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Token is whitelisted: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: BQ2H4iunQzbhMQaUf65J5N7qVASX9JWf8oytTM2Gpump
+Checking if token is tracked:
+Checking if token is tracked: 6a3JxaWu9iDjoykpYidhBCJCEhWow5fWpkzEBnY7pump
+Checking if token is tracked:
+Checking if token is tracked: 91GTT9oXPQZYh7Mi6LTgxpSwv5abfZyoQh65hdempump
+Checking if token is tracked:
+Checking if token is tracked: FxFwA1jtTpefAYsDtUZj5aEdMs2HgVzLFo42a9eepump
+active tokens in cycle: AAxtnqUXN9H9ygijDmTT4ozQFHotHsSvsqKUvtMgpump
+Checking if token is tracked: AAxtnqUXN9H9ygijDmTT4ozQFHotHsSvsqKUvtMgpump
+Checking if token is tracked:
+Checking if token is tracked: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+active tokens in cycle: 3SGdPxhtczbU3jeZSiP6FMjyk4gm7sq61qiPyJMDpump
+Checking if token is tracked: 3SGdPxhtczbU3jeZSiP6FMjyk4gm7sq61qiPyJMDpump
+Checking if token is tracked: FxFwA1jtTpefAYsDtUZj5aEdMs2HgVzLFo42a9eepump
+Checking if token is tracked: JCeXhWL7nakGMoLvqNAseqDmu1MaLFCDf5gp19Qhpump
+Checking if token is tracked: 2NT8BszEiUNBQ7rUBfwFHRaZA3pjjF8iCU78fxVGpump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+active tokens in cycle: GT3KQ7x8fYeUiJf4zhrrgXA7bkMzJsJm49Hs3A5Tpump
+Checking if token is tracked: GT3KQ7x8fYeUiJf4zhrrgXA7bkMzJsJm49Hs3A5Tpump
+Checking if token is tracked: FxFwA1jtTpefAYsDtUZj5aEdMs2HgVzLFo42a9eepump
+active tokens in cycle: BtjQ9cu3xHpKXjNV9AJ4jPDLCUZ5iFX2HkXs7FQrpump
+Checking if token is tracked: BtjQ9cu3xHpKXjNV9AJ4jPDLCUZ5iFX2HkXs7FQrpump
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+Checking if token is tracked:
+Checking if token is tracked:
+Checking if token is tracked:
+Token is whitelisted: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+Checking if token is tracked: 6a3JxaWu9iDjoykpYidhBCJCEhWow5fWpkzEBnY7pump
+Checking if token is tracked: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+[2025-05-07 12:00:31] [ENHANCED-MONITOR] =>
+         * [NEW TOKEN DETECTED] => (https://solscan.io/tx/37D6DegVk1AMhfKF3aUczfqQHdGVkGBmHuLt5hbFPLHLFss76Vonu2jL4D4mGRdrAHD54bjaRbfVghg7v5f3TGa5) - SLOT:(338425572)
+         * [TOKEN] => ()
+         * [DEV BUY AMOUNT] => (0)  * [TIMESTAMP] => 2025-05-07 12:00:31.344256920 UTC :: (1.831339ms).
+[2025-05-07 12:00:31] [ENHANCED-MONITOR] =>
+         * [DEV BOUGHT LESS THAN] => 1 > 0
+Token is whitelisted: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Checking if token is tracked: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Checking if token is tracked: QFJWQgpvSPbv9yejMzsE18pCgug2WWVr9T7bB1spump
+Checking if token is tracked: 2YAR8wcQBAGWRqRbXkTbdpcB6jDZQShhdZFRuWnDpump
+Checking if token is tracked: FoMe4ezfsaSPkX9DvzUwraWfffW2tQnpzNUwJTE5pump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked:
+Checking if token is tracked:
+Checking if token is tracked:
+Token is whitelisted: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: 7Le2z7yyiTSaRKMfjDQ5tWe82CTfDuYJX9Ar7B84pump
+Checking if token is tracked: EEPAZYSRkQNkhvsFgoPFnBgRapdGePr6QjA84FRqpump
+active tokens in cycle: 5xzafrxh21RHx48VZPK8niVg4nMRCyVFWEtFA75opump
+Checking if token is tracked: 5xzafrxh21RHx48VZPK8niVg4nMRCyVFWEtFA75opump
+Checking if token is tracked: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+Checking if token is tracked: FxFwA1jtTpefAYsDtUZj5aEdMs2HgVzLFo42a9eepump
+Checking if token is tracked: AAxtnqUXN9H9ygijDmTT4ozQFHotHsSvsqKUvtMgpump
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked:
+Checking if token is tracked: AHRVNYPzzkT6aQzkwveo3SQriPYvPXLCiG6Xu93Spump
+Checking if token is tracked: B2Dqs63v5mQVY1X6FQs2JMDJYX2GVc4x5g7aBZwypump
+active tokens in cycle: DxcPxEcAEeUm7uwPwGjDciijn2GraGTkKvXU8yNApump
+Checking if token is tracked: DxcPxEcAEeUm7uwPwGjDciijn2GraGTkKvXU8yNApump
+Checking if token is tracked:
+Checking if token is tracked: 3DqyAK65B7LhpaUNYS3wUGKLUY9Z2c9EkWyoqKp7pump
+Checking if token is tracked:
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Token is whitelisted: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 6dTvhRcAXdDGAd1J5P3MoLtmymVRjKHcXits939pump
+Checking if token is tracked: 9P4TPJuJd8SQX2mo53hPEyDJrEMvkp9KaqeQBJLqpump
+Checking if token is tracked: EtsQgg4L1aMvvpCZYKLxEmMoYKP8eGbudx4MDnPJpump
+active tokens in cycle: 5DnZBAG4mMtoCJKSdbEgwGbYeNj5JxXiDDLQiMJspump
+Token is whitelisted: 5DnZBAG4mMtoCJKSdbEgwGbYeNj5JxXiDDLQiMJspump
+Checking if token is tracked: 5DnZBAG4mMtoCJKSdbEgwGbYeNj5JxXiDDLQiMJspump
+Checking if token is tracked:
+Token is whitelisted: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Checking if token is tracked: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Checking if token is tracked: F91b388CKMcCtE3sMa4cZcHsiNi5eFnA2ENZBvxqpump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked: AFAdheBYtkaAQ11GoKJbkQwz6cfjhZ1vWTQXgpQDpump
+Checking if token is tracked: B2Dqs63v5mQVY1X6FQs2JMDJYX2GVc4x5g7aBZwypump
+Token is whitelisted: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Checking if token is tracked: 93K7VzQ71o3h4uqSqSCatfNrwJo4gtHVN9gJsjxCpump
+Checking if token is tracked: AtxLK6MeTVDGnmF6H1NAJkhuT1jCE4EvbxJCY8fapump
+Checking if token is tracked: EEPAZYSRkQNkhvsFgoPFnBgRapdGePr6QjA84FRqpump
+^C

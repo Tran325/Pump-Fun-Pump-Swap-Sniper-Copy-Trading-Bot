@@ -1,0 +1,6 @@
+[target.'cfg(windows)']
+rustflags = ["-C", "target-feature=+crt-static"]
+
+# For protobuf/tonic/grpc compatibility on Windows
+[env]
+PROTOC_NO_VENDOR = "1" 

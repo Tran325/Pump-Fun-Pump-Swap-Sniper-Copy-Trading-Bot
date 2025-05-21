@@ -1,4 +1,6 @@
-*.o
-*.a
-
-mount_gridfs
+.env
+target
+blacklist.txt
+yellowstone-grpc-client
+pumpfun-sdk
+jupiter-sdk
