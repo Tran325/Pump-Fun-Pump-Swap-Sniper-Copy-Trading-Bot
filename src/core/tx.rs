@@ -88,22 +88,22 @@ pub async fn jito_confirm(
             .yellow()
             .to_string(),
     );
-    jito::wait_for_bundle_confirmation(
-        move |id: String| {
-            let client = Arc::clone(&jito_client);
-            async move {
-                let response = client.get_bundle_statuses(&[id]).await;
-                let statuses = response.inspect_err(|err| {
-                    println!("Error fetching bundle status: {:?}", err);
-                })?;
-                Ok(statuses.value)
-            }
-        },
-        bundle_id,
-        Duration::from_millis(1000),
-        Duration::from_secs(10),
-    )
-    .await
+    // jito::wait_for_bundle_confirmation(
+    //     move |id: String| {
+    //         let client = Arc::clone(&jito_client);
+    //         async move {
+    //             let response = client.get_bundle_statuses(&[id]).await;
+    //             let statuses = response.inspect_err(|err| {
+    //                 println!("Error fetching bundle status: {:?}", err);
+    //             })?;
+    //             Ok(statuses.value)
+    //         }
+    //     },
+    //     bundle_id,
+    //     Duration::from_millis(1000),
+    //     Duration::from_secs(10),
+    // )
+    // .await
 }
 
 pub async fn new_signed_and_send(
