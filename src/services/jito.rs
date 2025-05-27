@@ -207,6 +207,10 @@ impl JitoClient {
         }
     }
 
+    pub fn new(endpoint : &str) -> self {
+        
+    }
+
     pub async fn send_transaction(
         &self,
         transaction: &Transaction,
