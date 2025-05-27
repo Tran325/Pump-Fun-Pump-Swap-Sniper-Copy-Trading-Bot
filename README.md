@@ -1,6 +1,6 @@
-# Pump-Fun-Pump-Swap-Sniper-Copy-Trading-Bot
+# Solana VNTR Sniper
 
-Pump-Fun-Pump-Swap-Sniper-Copy-Trading-Bot is a high-performance Rust-based trading bot that specializes in real-time copy trading on Solana DEXs like Pump.fun and PumpSwap, using advanced transaction monitoring to snipe and replicate profitable trades instantly.
+A sophisticated Solana token trading bot designed for monitoring, buying, and selling tokens on Pump.fun and other DEXes with advanced trading strategies and real-time monitoring capabilities.
 
 ## Overview
 
