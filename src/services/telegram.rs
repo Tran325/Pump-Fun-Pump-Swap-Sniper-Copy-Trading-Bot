@@ -1045,11 +1045,7 @@ impl TelegramService {
     }
     
     // Get list of tokens that have been notified
-    pub fn get_notified_tokens(&self) -> Vec<String> {
-        let notified_tokens = self.notified_tokens.lock().unwrap();
-        notified_tokens.iter().cloned().collect()
-    }
-
+    
     /// Send a detailed transaction notification with buy/sell details
     pub async fn send_transaction_notification(
         &self,
