@@ -33,11 +33,6 @@ pub struct BondingCurveInfo {
 }
 
 #[derive(Clone, Debug)]
-pub enum TransactionType {
-    Mint,
-    Buy,
-    Sell,
-}
 pub async fn new_token_trader_pumpfun(
     _yellowstone_grpc_http: String,
     _yellowstone_grpc_token: String,
