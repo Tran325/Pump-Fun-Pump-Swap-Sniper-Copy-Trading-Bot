@@ -981,9 +981,7 @@ impl TelegramService {
     async fn reload_config_if_changed(&self) -> Result<()> {
         // Only proceed if the config file exists
         let config_path = TelegramFilterSettings::get_config_path();
-        if !config_path.exists() {
-            return Ok(());
-        }
+        
         
         // Try to read the file to check if it's changed
         match TelegramFilterSettings::load_from_file() {
