@@ -16,13 +16,6 @@ pub struct TokenBalance {
     pub program_id: String,
 }
 
-#[derive(Debug, Serialize, Deserialize, Clone)]
-pub struct UiTokenAmount {
-    pub ui_amount: f64,
-    pub decimals: u8,
-    pub amount: String,
-    pub ui_amount_string: String,
-}
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct PumpTransaction {
