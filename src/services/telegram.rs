@@ -1013,15 +1013,6 @@ impl TelegramService {
         
         Ok(())
     }
-
-    pub async fn send_notification(&self, message: &str) -> Result<()> {
-        // Check if we should throttle notifications
-        if self.last_notification_time.elapsed() < self.notification_interval {
-            return Ok(());
-        }
-        
-        self.send_message(&self.default_chat_id, message, "HTML").await
-    }
     
     pub async fn send_message(&self, chat_id: &str, message: &str, parse_mode: &str) -> Result<()> {
         let url = format!("https://api.telegram.org/bot{}/sendMessage", self.bot_token);
