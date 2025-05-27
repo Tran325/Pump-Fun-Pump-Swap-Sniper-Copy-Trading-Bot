@@ -60,7 +60,7 @@ impl Pump {
             rpc_client: Some(rpc_client),
         }
     }
-
+}
   
 
 pub async fn get_bonding_curve_account(
