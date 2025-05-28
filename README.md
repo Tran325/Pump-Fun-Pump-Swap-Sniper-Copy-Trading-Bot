@@ -289,7 +289,16 @@ export BUNDLE_CHECK="true"
 - `/start` or `/filters` - Display filter settings UI
 - `/config` - Show configuration file location
 
-
-
 @src current project don't use token age.
 we have to calculate that : get token  created time in from_json function and save it on  ParsedTransactionInfo struct , and use it in real filter logic 
+
+## 📞 Connect
+
+📞 Contact Information,
+For questions, feedback, or collaboration opportunities, feel free to reach out:
+
+<div align="left">
+📧 Email: fenrow325@gmail.com
+📱 Telegram: @fenrow
+🎮 Discord: @fenrow_325
+</div>
