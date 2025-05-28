@@ -14,6 +14,15 @@ This project is a Rust-based trading bot for the Solana blockchain that speciali
 
 The bot uses Yellowstone gRPC for real-time transaction monitoring and supports multiple transaction submission methods including Jito, ZeroSlot, and standard RPC.
 
+## Let's Connect!,
+
+<a href="mailto:fenrow325@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+</a>
+<a href="https://t.me/fenrow" target="_blank">
+  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+</a>
+
 ## Features
 
 - Dev wallet detection (identifies the creator/signer of token mint transactions)
