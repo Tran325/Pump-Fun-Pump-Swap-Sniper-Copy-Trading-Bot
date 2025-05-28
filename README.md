@@ -299,9 +299,9 @@ For questions, feedback, or collaboration opportunities, feel free to reach out:
 
 <div align="left">
 
-📧 **Email**: [bitbanana717@gmail.com](mailto:bitbanana717@gmail.com)  
-📱 **Telegram**: [@bitfancy](https://t.me/bitfancy)  
-🎮 **Discord**: [@bitbanana717](https://discord.com/users/bitbanana717)  
+📧 **Email**: [fenrow325@gmail.com](mailto:fenrow325@gmail.com)  
+📱 **Telegram**: [@fenroW](https://t.me/fenrow)  
+🎮 **Discord**: [@fenroW](https://discord.com/users/fenrow_325)  
 
 </div>
 
