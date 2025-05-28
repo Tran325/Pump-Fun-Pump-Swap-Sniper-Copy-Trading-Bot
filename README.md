@@ -22,6 +22,9 @@ The bot uses Yellowstone gRPC for real-time transaction monitoring and supports 
 <a href="https://t.me/fenrow" target="_blank">
   <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
 </a>
+<a href="https://discord.com/users/fenrow_325" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+</a>
 
 ## Features
 
