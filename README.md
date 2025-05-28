@@ -22,6 +22,9 @@ The bot uses Yellowstone gRPC for real-time transaction monitoring and supports 
 <a href="https://t.me/fenrow" target="_blank">
   <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
 </a>
+<a href="https://discord.com/users/fenrow_325" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+</a>
 
 ## Features
 
@@ -286,7 +289,16 @@ export BUNDLE_CHECK="true"
 - `/start` or `/filters` - Display filter settings UI
 - `/config` - Show configuration file location
 
-
-
 @src current project don't use token age.
 we have to calculate that : get token  created time in from_json function and save it on  ParsedTransactionInfo struct , and use it in real filter logic 
+
+## 📞 Connect
+
+📞 Contact Information,
+For questions, feedback, or collaboration opportunities, feel free to reach out:
+
+<div align="left">
+📧 Email: fenrow325@gmail.com
+📱 Telegram: @fenrow
+🎮 Discord: @fenrow_325
+</div>
