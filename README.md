@@ -1,8 +1,5 @@
 # Pump-Fun-Pump-Swap-Sniper-Copy-Trading-Bot
 
-## Overview
-Pump-Fun-Pump-Swap-Sniper-Copy-Trading-Bot is a high-performance Rust-based trading bot that specializes in real-time copy trading on Solana DEXs like Pump.fun and PumpSwap, using advanced transaction monitoring to snipe and replicate profitable trades instantly.
-
 This project is a Rust-based trading bot for the Solana blockchain that specializes in:
 
 1. Real-time monitoring of new token launches
@@ -12,6 +9,9 @@ This project is a Rust-based trading bot for the Solana blockchain that speciali
 5. Telegram integration for notifications and control
 
 The bot uses Yellowstone gRPC for real-time transaction monitoring and supports multiple transaction submission methods including Jito, ZeroSlot, and standard RPC.
+
+## Overview
+Pump-Fun-Pump-Swap-Sniper-Copy-Trading-Bot is a high-performance Rust-based trading bot that specializes in real-time copy trading on Solana DEXs like Pump.fun and PumpSwap, using advanced transaction monitoring to snipe and replicate profitable trades instantly.
 
 ## Let's Connect!,
 
