@@ -71,7 +71,8 @@ fn analyze_directory(dir_path: &Path, tx_type_filter: Option<&str>, output_dir: 
     
     let mut transactions = Vec::new();
     let mut type_counts = HashMap::new();
-    let mut total_fees = 0u64;
+    // let mut total_fees = 0u64;
+    let mut tx_type_filter = Hash
     
     // Process files in directory
     for entry in fs::read_dir(dir_path)? {

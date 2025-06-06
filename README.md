@@ -13,6 +13,18 @@ This project is a Rust-based trading bot for the Solana blockchain that speciali
 
 The bot uses Yellowstone gRPC for real-time transaction monitoring and supports multiple transaction submission methods including Jito, ZeroSlot, and standard RPC.
 
+## Let's Connect!,
+
+<a href="mailto:fenrow325@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+</a>
+<a href="https://t.me/fenrow" target="_blank">
+  <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+</a>
+<a href="https://discord.com/users/fenrow_325" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+</a>
+
 ## Features
 
 - Dev wallet detection (identifies the creator/signer of token mint transactions)
@@ -276,7 +288,20 @@ export BUNDLE_CHECK="true"
 - `/start` or `/filters` - Display filter settings UI
 - `/config` - Show configuration file location
 
-
-
 @src current project don't use token age.
 we have to calculate that : get token  created time in from_json function and save it on  ParsedTransactionInfo struct , and use it in real filter logic 
+
+---
+
+## 📞 Contact Information
+For questions, feedback, or collaboration opportunities, feel free to reach out:
+
+<div align="left">
+
+📧 **Email**: [fenrow325@gmail.com](mailto:fenrow325@gmail.com)  
+📱 **Telegram**: [@fenroW](https://t.me/fenrow)  
+🎮 **Discord**: [@fenroW](https://discord.com/users/fenrow_325)  
+
+</div>
+
+---

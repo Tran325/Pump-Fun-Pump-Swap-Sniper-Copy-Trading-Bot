@@ -981,9 +981,7 @@ impl TelegramService {
     async fn reload_config_if_changed(&self) -> Result<()> {
         // Only proceed if the config file exists
         let config_path = TelegramFilterSettings::get_config_path();
-        if !config_path.exists() {
-            return Ok(());
-        }
+        
         
         // Try to read the file to check if it's changed
         match TelegramFilterSettings::load_from_file() {
@@ -1014,15 +1012,6 @@ impl TelegramService {
         }
         
         Ok(())
-    }
-
-    pub async fn send_notification(&self, message: &str) -> Result<()> {
-        // Check if we should throttle notifications
-        if self.last_notification_time.elapsed() < self.notification_interval {
-            return Ok(());
-        }
-        
-        self.send_message(&self.default_chat_id, message, "HTML").await
     }
     
     pub async fn send_message(&self, chat_id: &str, message: &str, parse_mode: &str) -> Result<()> {
@@ -1056,11 +1045,7 @@ impl TelegramService {
     }
     
     // Get list of tokens that have been notified
-    pub fn get_notified_tokens(&self) -> Vec<String> {
-        let notified_tokens = self.notified_tokens.lock().unwrap();
-        notified_tokens.iter().cloned().collect()
-    }
-
+    
     /// Send a detailed transaction notification with buy/sell details
     pub async fn send_transaction_notification(
         &self,

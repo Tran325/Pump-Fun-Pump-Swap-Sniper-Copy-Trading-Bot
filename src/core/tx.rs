@@ -32,78 +32,8 @@ pub async fn jito_confirm(
     recent_block_hash: &Hash,
     logger: &Logger,
 ) -> Result<Vec<String>> {
-    let (tip_account, tip1_account) = jito::get_tip_account()?;
-    let jito_client = Arc::new(JitoRpcClient::new(format!(
-        "{}/api/v1/bundles",
-        *jito::BLOCK_ENGINE_URL
-    )));
-    // jito tip, the upper limit is 0.1
-    let mut tip_value = jito::get_tip_value().await.unwrap();
-    let tip = 0.0004_f64;
-    tip_value -= tip;
-    let tip_lamports = ui_amount_to_amount(tip, spl_token::native_mint::DECIMALS);
-    let tip_value_lamports = ui_amount_to_amount(tip_value, spl_token::native_mint::DECIMALS); // tip tx
-
-    let simulate_result = client.simulate_transaction(&version_tx)?;
-    // logger.log("Tx Stimulate".to_string());
-    // if let Some(logs) = simulate_result.value.logs {
-    //     for log in logs {
-    //         logger.log(log.to_string());
-    //     }
-    // }
-    if let Some(err) = simulate_result.value.err {
-        return Err(anyhow::anyhow!("{}", err));
-    };
-    let bundle: Vec<VersionedTransaction> = if tip_value > 0_f64 {
-        vec![
-            version_tx,
-            VersionedTransaction::from(system_transaction::transfer(
-                keypair,
-                &tip_account,
-                tip_lamports,
-                *recent_block_hash,
-            )),
-            VersionedTransaction::from(system_transaction::transfer(
-                keypair,
-                &tip1_account,
-                tip_value_lamports,
-                *recent_block_hash,
-            )),
-        ]
-    } else {
-        vec![
-            version_tx,
-            VersionedTransaction::from(system_transaction::transfer(
-                keypair,
-                &tip_account,
-                tip_lamports,
-                *recent_block_hash,
-            )),
-        ]
-    };
-    let start_time = Instant::now();
-    let bundle_id = jito_client.send_bundle(&bundle).await.unwrap();
-    logger.log(
-        format!("txn ellapsed({}): {:?}", bundle_id, start_time.elapsed())
-            .yellow()
-            .to_string(),
-    );
-    // jito::wait_for_bundle_confirmation(
-    //     move |id: String| {
-    //         let client = Arc::clone(&jito_client);
-    //         async move {
-    //             let response = client.get_bundle_statuses(&[id]).await;
-    //             let statuses = response.inspect_err(|err| {
-    //                 println!("Error fetching bundle status: {:?}", err);
-    //             })?;
-    //             Ok(statuses.value)
-    //         }
-    //     },
-    //     bundle_id,
-    //     Duration::from_millis(1000),
-    //     Duration::from_secs(10),
-    // )
-    // .await
+   
+      
 }
 
 pub async fn new_signed_and_send(
@@ -270,69 +200,7 @@ pub async fn new_signed_and_send_nozomi(
 ) -> Result<Vec<String>> {
     let start_time = Instant::now();
 
-    let mut txs = vec![];
-    let tip_account = nozomi::get_tip_account()?;
-
-    // nozomi tip, the upper limit is 0.1
-    let tip = nozomi::get_tip_value().await?;
-    let tip_lamports = ui_amount_to_amount(tip, spl_token::native_mint::DECIMALS);
-
-    let nozomi_tip_instruction =
-        system_instruction::transfer(&keypair.pubkey(), &tip_account, tip_lamports);
-    instructions.insert(0, nozomi_tip_instruction);
-
-    // ADD Priority fee
-    // -------------
-    let unit_limit = get_unit_limit();
-    let unit_price = get_unit_price();
-
-    let modify_compute_units =
-        anchor_client::solana_sdk::compute_budget::ComputeBudgetInstruction::set_compute_unit_limit(
-            unit_limit,
-        );
-    let add_priority_fee =
-        anchor_client::solana_sdk::compute_budget::ComputeBudgetInstruction::set_compute_unit_price(
-            unit_price,
-        );
-    instructions.insert(1, modify_compute_units);
-    instructions.insert(2, add_priority_fee);
-    
-
-    // send init tx
-    let txn = Transaction::new_signed_with_payer(
-        &instructions,
-        Some(&keypair.pubkey()),
-        &vec![keypair],
-        recent_blockhash,
-    );
-
-    // let simulate_result = client.simulate_transaction(&txn)?;
-    // logger.log("Tx Stimulate".to_string());
-    // if let Some(logs) = simulate_result.value.logs {
-    //     for log in logs {
-    //         logger.log(log.to_string());
-    //     }
-    // }
-    // if let Some(err) = simulate_result.value.err {
-    //     return Err(anyhow::anyhow!("{}", err));
-    // };
-
-    let zeroslot_client = Arc::new(ZeroSlotClient::new((*nozomi::NOZOMI_URL).as_str()));
-    let sig = match zeroslot_client.send_transaction(&txn).await {
-        Ok(signature) => signature,
-        Err(_) => {
-            return Err(anyhow::anyhow!("send_transaction status get timeout"
-                .red()
-                .italic()
-                .to_string()));
-        }
-    };
-    txs.push(sig.clone().to_string());
-    logger.log(
-        format!("[TXN-ELLAPSED(NOZOMI)]: {:?}", start_time.elapsed())
-            .yellow()
-            .to_string(),
-    );
+ 
 
     Ok(txs)
 }
