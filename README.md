@@ -1,8 +1,7 @@
 # Pump-Fun-Pump-Swap-Sniper-Copy-Trading-Bot
 
-Pump-Fun-Pump-Swap-Sniper-Copy-Trading-Bot is a high-performance Rust-based trading bot that specializes in real-time copy trading on Solana DEXs like Pump.fun and PumpSwap, using advanced transaction monitoring to snipe and replicate profitable trades instantly.
-
 ## Overview
+Pump-Fun-Pump-Swap-Sniper-Copy-Trading-Bot is a high-performance Rust-based trading bot that specializes in real-time copy trading on Solana DEXs like Pump.fun and PumpSwap, using advanced transaction monitoring to snipe and replicate profitable trades instantly.
 
 This project is a Rust-based trading bot for the Solana blockchain that specializes in:
 
